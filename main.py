@@ -30,5 +30,5 @@ def predict(request: IrisRequest):
 
     return {
         "prediction": prediction,
-        "class_name": ["setosa", "versicolor", "virginica"][prediction]
+        "class-name": ["setosa", "versicolor", "virginica"][prediction]
     }
