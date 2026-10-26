@@ -1,4 +1,3 @@
-```yaml
 name: Iris ML API - CI Pipeline
 
 on:
@@ -35,4 +34,4 @@ jobs:
 
       - name: Build Docker image
         run: docker build -t iris-ml-api:${{ github.sha }} .
-```
+
